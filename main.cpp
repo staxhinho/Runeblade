@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 
 using namespace std;
 
@@ -17,7 +18,7 @@ int main() {
 void getInput() {
     while (!exitFlag) {
         cout << "Runeblade>";
-        cin >> command;
+        getline(cin, command);
         commandList();
     }
 }

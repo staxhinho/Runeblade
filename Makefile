@@ -1,2 +1,2 @@
 all:
-	clang++ main.cpp ./commands/time.cpp command-list.cpp -o Runeblade
+	clang++ main.cpp command-list.cpp ./commands/time.cpp ./commands/echo.cpp -o Runeblade

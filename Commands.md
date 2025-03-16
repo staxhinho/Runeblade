@@ -5,3 +5,5 @@
 **close** - Closes terminal.
 
 **clear** - Clears terminal.
+
+**echo** - Outputs input.
